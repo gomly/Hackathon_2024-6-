@@ -198,6 +198,17 @@ body {
     background-color: #3498db;
 }
 
+.jobs-links {
+    text-decoration: none;
+}
+
+.jobs-links:hover {
+    color:green;
+}
+.jobs-links:active {
+    color: red;
+}
+
 .footer-container {
     text-align: center; /* Center text in footer */
     padding: 10px 0;
