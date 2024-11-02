@@ -9,9 +9,7 @@
 <body>
 <!-- Header Container -->
 <header class="header-container">
-    <div class="header-inner-container-logo">
-        <img src="student-bud-logo.png" alt="StudentBud Logo" id="student-bud-logo" style: width="100px">
-    </div>
+    <div class="header-inner-container-logo">MyLogo</div>
     <div class="header-inner-container navigation">
         <nav>
             <ul>
