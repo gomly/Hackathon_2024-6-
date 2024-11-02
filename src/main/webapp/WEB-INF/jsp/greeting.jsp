@@ -98,7 +98,7 @@
     <div id="intro-section" class="home-middle-inner-container section3">
         <div class="Main-ID">
             <h1>The Ultimate Guild<br> to Your <br>University!</h1>
-            <p> Weather you are a new student ready to start a new stage in life or a upper classman ready for the world
+            <p style="font-style:italic; font-size:20px">Whether you are a new student ready to start a new stage in life or a upper classman ready for the world
             of work, we at StudentBud have you covered.</p>
         </div>
     </div>
