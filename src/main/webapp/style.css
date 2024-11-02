@@ -11,7 +11,9 @@ body {
     background-color: #f4f4f4;
     border-bottom: 2px solid #ccc;
 }
-
+.header-inner-container-logo{
+    margin-left: 23rem;
+}
 .header-inner-container {
     flex: 1;
 }
@@ -21,6 +23,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: flex-end; /* Align links to the right */
+    margin-right: 23rem;
 }
 
 .navigation nav ul li {
@@ -40,7 +43,7 @@ body {
 }
 
 .home-middle-inner-container {
-    width: 80%; /* Full width for each section */
+    width: 60%; /* Full width for each section */
     margin: 10px 0; /* Vertical margin between sections */
     padding: 20px;
     background-color: #e9e9e9;

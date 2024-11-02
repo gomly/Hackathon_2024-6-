@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +9,7 @@
 <body>
 <!-- Header Container -->
 <header class="header-container">
-    <div class="header-inner-container logo">MyLogo</div>
+    <div class="header-inner-container-logo">MyLogo</div>
     <div class="header-inner-container navigation">
         <nav>
             <ul>
@@ -29,16 +28,7 @@
         <h2>Section 1</h2>
         <p>This is the first section of the home-middle.</p>
     </div>
-    <div class="home-middle-inner-container section2">
-        <!-- Content for section 2 -->
-        <h2>Section 2</h2>
-        <p>This is the second section of the home-middle.</p>
-    </div>
-    <div class="home-middle-inner-container section3">
-        <!-- Content for section 3 -->
-        <h2>Section 3</h2>
-        <p>This is the third section of the home-middle.</p>
-    </div>
+
 </main>
 
 <!-- Footer Container -->
