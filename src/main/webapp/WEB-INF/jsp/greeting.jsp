@@ -150,9 +150,23 @@
 
     <!-- Guide Section -->
     <div id="guide-section" class="home-middle-inner-container section2">
-        <h2>Guide</h2>
-        <p>Navigate university life with ease using our student guide! This checklist provides steps tailored for every stage. Whether you're a first-year, second-year, third-year, or an international student, this guide can help you make the most of each year.</p>
-    </div>
+        <h2 id="guide-heading">Yearwise Checklist</h2>
+        <p style="font-size: 20px; font-style: italic;">Navigate university life with ease using our student guide! This checklist provides steps tailored for every stage. Whether your'e a <a href="#year1-checklist">first-year</a>, second-year, third-year, or an international student, this guide can help you make the most of each year.</p>
+        
+        
+        <div class="year1-checklist" id="year1-checklist"></div>
+            <h3 class="year1-checklist-h3">Year 1<h3>
+            <p padding="0px">This is a checklist for students entering into year 1 of their studies.<p>
+            <ul class="year1-checklist-list">
+              <li>View your timetable - This will be available at the start of the term</li>
+              <li>Register with a GP</li>
+              <li>Join the university's Instagram and Student Life Facebook channels to make friends before you arrive</li>
+              <li>Find out about Welcome Events and book your place</li>
+              <li>Explore the Student's Union and plan what societies you want to join.</li>
+              <li>Apply for a RailCard to save money on Rail Travel</li>
+            </ul>
+        </div>
+     </div>
 </main>
 
 <!-- Footer Container -->
