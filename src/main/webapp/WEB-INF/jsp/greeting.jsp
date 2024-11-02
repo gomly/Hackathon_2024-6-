@@ -9,13 +9,14 @@
 <body>
 <!-- Header Container -->
 <header class="header-container">
-    <div class="header-inner-container-logo">MyLogo</div>
+    <div class="header-inner-container-logo">
+        <img src="student-bud-logo.png" alt="StudentBud Logo" id="student-bud-logo" style: width="100px">
+    </div>
     <div class="header-inner-container navigation">
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Budget</a></li>
+                <li><a href="#about">YearChecklist</a></li>
             </ul>
         </nav>
     </div>
@@ -25,8 +26,10 @@
 <main class="home-middle-container">
     <div class="home-middle-inner-container section1">
         <!-- Content for section 1 -->
-        <h2>Section 1</h2>
-        <p>This is the first section of the home-middle.</p>
+        <h2>Budgeting</h2>
+        <p>Get the most out of your financial aid and make every dollar count. Our easy-to-use budgeting tool is designed to help students like you track expenses, set savings goals, and stay on top of spending. Maximize your funds and gain confidence in managing your budgeting smarter today!</p>
+        <h2>Guide</h2>
+        <p>Navigate university life with ease using our student guide! This year-by-year checklist provides simple, actionable steps tailored for every stage. Whether you're a first-year finding your footing, a second-year building your resume, or a third-year preparing for the real world. International students can also find helpful tips to make the most of studying abroad. Keep focused, reduce stress, and make each year a success. Check it out now!.</p>
     </div>
 
 </main>
