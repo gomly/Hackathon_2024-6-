@@ -97,7 +97,7 @@
     <!-- intro Section -->
     <div id="intro-section" class="home-middle-inner-container section3">
         <div class="Main-ID">
-            <h1>The Ultimate Guide<br> to Your <br>University!</h1>
+            <h1>The Ultimate Guild<br> to Your <br>University!</h1>
             <p> Weather you are a new student ready to start a new stage in life or a upper classman ready for the world
             of work, we at StudentBud have you covered.</p>
         </div>
@@ -115,29 +115,33 @@
             <!-- Housing Slider -->
             <div class="slider-container">
                 <label for="housingSlider">Housing</label>
-                <input type="range" id="housingSlider" name="housing" min="0" max="20" value="0" oninput="updateSliderValues()">
-                <span id="housingValue">0</span> / 20
+                <input type="range" id="housingSlider" name="housing" min="0" max="250" value="0" oninput="updateSliderValues()">
+                <span id="housingValue">0</span> / 250
+                <div id="contentBox"></div>
             </div>
 
             <!-- Groceries Slider -->
             <div class="slider-container">
                 <label for="groceriesSlider">Groceries</label>
-                <input type="range" id="groceriesSlider" name="groceries" min="0" max="20" value="0" oninput="updateSliderValues()">
-                <span id="groceriesValue">0</span> / 20
+                <input type="range" id="groceriesSlider" name="groceries" min="0" max="100" value="0" oninput="updateSliderValues()">
+                <span id="groceriesValue">0</span> / 100
+                <div id="contentBox2"></div>
             </div>
 
             <!-- Leisure Slider -->
             <div class="slider-container">
                 <label for="leisureSlider">Leisure</label>
-                <input type="range" id="leisureSlider" name="leisure" min="0" max="20" value="0" oninput="updateSliderValues()">
-                <span id="leisureValue">0</span> / 20
+                <input type="range" id="leisureSlider" name="leisure" min="0" max="100" value="0" oninput="updateSliderValues()">
+                <span id="leisureValue">0</span> / 100
+                <div id="contentBox3"></div>
             </div>
 
             <!-- Transport Slider -->
             <div class="slider-container">
                 <label for="transportSlider">Transport</label>
-                <input type="range" id="transportSlider" name="transport" min="0" max="20" value="0" oninput="updateSliderValues()">
-                <span id="transportValue">0</span> / 20
+                <input type="range" id="transportSlider" name="transport" min="0" max="100" value="0" oninput="updateSliderValues()">
+                <span id="transportValue">0</span> / 100
+                <div id="contentBox4"></div>
             </div>
 
             <!-- Submit Button -->
@@ -147,80 +151,131 @@
         <!-- Display Spending Message -->
         <p><%= message %></p>
     </div>
-
     <!-- Guide Section -->
     <div id="guide-section" class="home-middle-inner-container section2">
         <h2 id="guide-heading">Yearwise Checklist</h2>
         <p style="font-size: 20px; font-style: italic;">Navigate university life with ease using our student guide! This checklist provides steps tailored for every stage. Whether your'e a <a href="#year1-checklist">first-year</a>, second-year, third-year, or an international student, this guide can help you make the most of each year.</p>
-        
-        
-        <div class="year1-checklist" id="year1-checklist">
-            <h3 class="year1-checklist-h3">Year 1<h3>
+
+
+
+        <h3 class="year1-checklist-h3">Year 1</h3>
             <p padding="0px">This is a checklist for students entering into year 1 of their studies.<p>
             <ul class="year1-checklist-list">
-              <li>View your timetable - This will be available at the start of the term</li>
-              <li>Register with a GP</li>
-              <li>Join the university's Instagram and Student Life Facebook channels to make friends before you arrive</li>
-              <li>Find out about Welcome Events and book your place</li>
-              <li>Explore the Student's Union and plan what societies you want to join.</li>
-              <li>Apply for a RailCard to save money on Rail Travel</li>
+                <li>View your timetable - This will be available at the start of the term</li>
+                <li>Register with a GP</li>
+                <li>Join the university's Instagram and Student Life Facebook channels to make friends before you arrive</li>
+                <li>Find out about Welcome Events and book your place</li>
+                <li>Explore the Student's Union and plan what societies you want to join.</li>
+                <li>Apply for a RailCard to save money on Rail Travel</li>
             </ul>
-        </div>
 
-        <div class="year1-checklist" id="year1-checklist">
-            <h3 class="year1-checklist-h3">Year 2<h3>
+
+
+        <h3 class="year1-checklist-h3">Year 2</h3>
             <p padding="20px">This is a checklist for students progressing into year 2 of their studies.<p>
             <ul class="year1-checklist-list">
-              <li>Apply for internships and summer programmes</li>
-              <ul style="list-style-type: none;">
-                <li margin-left="10px";><a href="https://targetjobs.co.uk/" target="_blank" style="text-decoration: none;" class="jobs-links">Target Jobs</a></li>
-                <li margin-left="10px";><a href="https://mycareers.le.ac.uk/unauth" target="_blank" style="text-decoration: none;" class="jobs-links">MyCareers</a></li>
-                <li margin-left="10px";><a href="https://www.brightnetwork.co.uk/" target="_blank" style="text-decoration: none;" class="jobs-links">Bright Network</a></li>
-              </ul>
-              <li>Apply for Year Abroad</li>
-              <li>Join societies on campus</li>
-              <li>Confirm your academic standing and credits</li>
+                <li>Apply for internships and summer programmes</li>
+                <ul style="list-style-type: none;">
+                    <li margin-left="10px";><a href="https://targetjobs.co.uk/" target="_blank" style="text-decoration: none;" class="jobs-links">Target Jobs</a></li>
+                    <li margin-left="10px";><a href="https://mycareers.le.ac.uk/unauth" target="_blank" style="text-decoration: none;" class="jobs-links">MyCareers</a></li>
+                    <li margin-left="10px";><a href="https://www.brightnetwork.co.uk/" target="_blank" style="text-decoration: none;" class="jobs-links">Bright Network</a></li>
+                </ul>
+                <li>Apply for Year Abroad</li>
+                <li>Join societies on campus</li>
+                <li>Confirm your academic standing and credits</li>
             </ul>
-        </div>
 
-        <div class="year1-checklist" id="year1-checklist">
-            <h3 class="year1-checklist-h3">Year 3<h3>
-            <p padding="0px">This is a checklist for students entering into year 3 of their studies.<p>
-            <ul class="year1-checklist-list">
-              <li>Checkout plans for Masters</li>
-              <li>Graduate Programmes
-                <li><a href="https://targetjobs.co.uk/" target="_blank" class="jobs-links">Target Jobs Uk</a></li>
-                <li><a href="https://www.ucas.com/" target="_blank" class="jobs-links">UCAS for Masters</a></li>
-              </li>
-              <li>Careers</li>
-            </ul>
-        </div>
-     
-</main>
+
+            <h3 class="year1-checklist-h3">Year 3</h3>
+                <p padding="0px">This is a checklist for students entering into year 3 of their studies.<p>
+                <ul class="year1-checklist-list">
+                    <li>Checkout plans for Masters</li>
+                    <li>Graduate Programmes
+                    <li><a href="https://targetjobs.co.uk/" target="_blank" class="jobs-links">Target Jobs Uk</a></li>
+                    <li><a href="https://www.ucas.com/" target="_blank" class="jobs-links">UCAS for Masters</a></li>
+            <li>Careers</li>
+                </ul>
+
+    </div>
+
 
 <!-- Footer Container -->
 <footer class="footer-container">
     <p>© 2024 MyWebsite. All rights reserved.</p>
 </footer>
 
-<script>
-    function updateSliderValues() {
-        // Get slider elements
-        const housing = parseInt(document.getElementById('housingSlider').value);
-        const groceries = parseInt(document.getElementById('groceriesSlider').value);
-        const leisure = parseInt(document.getElementById('leisureSlider').value);
-        const transport = parseInt(document.getElementById('transportSlider').value);
+    <script>
+        function updateSliderValues() {
+            // Get slider elements
+            const housing = parseInt(document.getElementById('housingSlider').value);
+            const groceries = parseInt(document.getElementById('groceriesSlider').value);
+            const leisure = parseInt(document.getElementById('leisureSlider').value);
+            const transport = parseInt(document.getElementById('transportSlider').value);
 
-        // Update individual values
-        document.getElementById('housingValue').textContent = housing;
-        document.getElementById('groceriesValue').textContent = groceries;
-        document.getElementById('leisureValue').textContent = leisure;
-        document.getElementById('transportValue').textContent = transport;
+            // Update individual values
+            document.getElementById('housingValue').textContent = housing;
+            document.getElementById('groceriesValue').textContent = groceries;
+            document.getElementById('leisureValue').textContent = leisure;
+            document.getElementById('transportValue').textContent = transport;
 
-        // Calculate and update total spending
-        const total = housing + groceries + leisure + transport;
-        document.getElementById('totalValue').textContent = total;
-    }
-</script>
+            // Calculate and update total spending
+            const total = housing + groceries + leisure + transport;
+            document.getElementById('totalValue').textContent = total;
+
+            // Update content boxes for each slider with multiple information
+            updateContentBox('housingSlider', 'contentBox', [
+                "Housing tip 1: Consider sharing to save money.\nMake sure to discuss responsibilities with your roommate.",
+                "Housing tip 2: Look for deals on long-term leases.\nAsk about any promotions for new tenants.",
+                "Housing tip 3: Explore off-campus housing options.\nSometimes they can be more affordable than on-campus.",
+                "Housing tip 4: Make sure you have renter's insurance.\nIt's a small price to pay for peace of mind.",
+                "Housing tip 5: Check local regulations for landlords.\nEnsure you're in a safe and legal rental agreement."
+            ]);
+            updateContentBox('groceriesSlider', 'contentBox2', [
+                "Groceries tip 1: Consider meal prepping to save time.\nPrepare meals in bulk to avoid food waste.",
+                "Groceries tip 2: Explore local markets for fresh produce.\nOften cheaper and fresher than grocery stores.",
+                "Groceries tip 3: Buy in bulk for pantry staples.\nIt saves money and reduces the frequency of shopping.",
+                "Groceries tip 4: Look for coupons and discounts.\nAlways check before shopping, both online and in-store.",
+                "Groceries tip 5: Track your spending to avoid waste.\nPlan meals according to what you already have."
+            ]);
+            updateContentBox('leisureSlider', 'contentBox3', [
+                "Leisure tip 1: Check for student discounts on activities.\nMany venues offer reduced prices for students.",
+                "Leisure tip 2: Find free events on campus.\nThere are often concerts, lectures, and activities.",
+                "Leisure tip 3: Join clubs for social activities.\nThey provide great opportunities to meet new people.",
+                "Leisure tip 4: Balance leisure spending with other expenses.\nConsider setting a monthly cap for entertainment.",
+                "Leisure tip 5: Consider low-cost hobbies to save money.\nExplore activities like hiking, reading, or crafting."
+            ]);
+            updateContentBox('transportSlider', 'contentBox4', [
+                "Transport tip 1: Look into public transport options.\nCheck for student passes for discounts.",
+                "Transport tip 2: Consider a bike for short distances.\nIt's a cost-effective and healthy option.",
+                "Transport tip 3: Carpool with friends to save on gas.\nIt's fun and reduces individual expenses.",
+                "Transport tip 4: Track transport expenses monthly.\nIdentify areas where you can save.",
+                "Transport tip 5: Research student discounts for transport.\nMany transit systems offer reduced fares for students."
+            ]);
+        }
+
+        function updateContentBox(sliderId, contentBoxId, messages) {
+            const slider = document.getElementById(sliderId);
+            const contentBox = document.getElementById(contentBoxId);
+            const value = parseInt(slider.value, 10);
+
+            // Determine which message to display based on slider value
+            let messageIndex;
+            if (value >= 0 && value <= 20) {
+                messageIndex = 0; // First message
+            } else if (value > 20 && value <= 40) {
+                messageIndex = 1; // Second message
+            } else if (value > 40 && value <= 60) {
+                messageIndex = 2; // Third message
+            } else if (value > 60 && value <= 80) {
+                messageIndex = 3; // Fourth message
+            } else {
+                messageIndex = 4; // Fifth message
+            }
+
+            // Show the content box and update its text content
+            contentBox.innerHTML = messages[messageIndex].replace(/\n/g, '<br>'); // Use <br> for line breaks
+            contentBox.style.display = "block"; // Show content box
+        }
+    </script>
 </body>
 </html>
