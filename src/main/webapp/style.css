@@ -133,6 +133,71 @@ body {
     text-align: center; /* Center text inside sections */
 }
 
+#guide-heading {
+    font-style: italic;
+    font-family: "Monaco", monospace;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: brown;  /* Accent color for the Year 1 heading */
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Adds depth to the heading */    
+}
+
+
+.year1-checklist {
+    text-align: right;
+    font-size: 15px;
+    font-weight: lighter;
+    border-radius: 8px;
+    padding: 0px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.year1-checklist-h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: gray;  
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    display: inline-block; 
+}
+
+
+.year1-checklist-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.year1-checklist-list li {
+    text-align: left;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #34495e;
+}
+
+.year1-checklist-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3498db;
+}
+
 .footer-container {
     text-align: center; /* Center text in footer */
     padding: 10px 0;
