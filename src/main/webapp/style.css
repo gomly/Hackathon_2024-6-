@@ -131,6 +131,10 @@ body {
     background-image: url('Uni-background.png');
     border-radius: 5px;
     text-align: center; /* Center text inside sections */
+
+    background-position: center;
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-size: cover;
 }
 
 #guide-heading {
