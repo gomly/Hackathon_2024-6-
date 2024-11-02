@@ -154,7 +154,7 @@
         <p style="font-size: 20px; font-style: italic;">Navigate university life with ease using our student guide! This checklist provides steps tailored for every stage. Whether your'e a <a href="#year1-checklist">first-year</a>, second-year, third-year, or an international student, this guide can help you make the most of each year.</p>
         
         
-        <div class="year1-checklist" id="year1-checklist"></div>
+        <div class="year1-checklist" id="year1-checklist">
             <h3 class="year1-checklist-h3">Year 1<h3>
             <p padding="0px">This is a checklist for students entering into year 1 of their studies.<p>
             <ul class="year1-checklist-list">
@@ -167,7 +167,7 @@
             </ul>
         </div>
 
-        <div class="year1-checklist" id="year1-checklist"></div>
+        <div class="year1-checklist" id="year1-checklist">
             <h3 class="year1-checklist-h3">Year 2<h3>
             <p padding="20px">This is a checklist for students progressing into year 2 of their studies.<p>
             <ul class="year1-checklist-list">
@@ -181,6 +181,20 @@
               <li>Join societies on campus</li>
               <li>Confirm your academic standing and credits</li>
             </ul>
+        </div>
+
+        <div class="year1-checklist" id="year1-checklist">
+            <h3 class="year1-checklist-h3">Year 3<h3>
+            <p padding="0px">This is a checklist for students entering into year 3 of their studies.<p>
+            <ul class="year1-checklist-list">
+              <li>Checkout plans for Masters</li>
+              <li>Graduate Programmes
+                <li><a href="https://targetjobs.co.uk/" target="_blank" class="jobs-links">Target Jobs Uk</a></li>
+                <li><a href="https://www.ucas.com/" target="_blank" class="jobs-links">UCAS for Masters</a></li>
+              </li>
+              <li>Careers</li>
+            </ul>
+        </div>
      
 </main>
 
