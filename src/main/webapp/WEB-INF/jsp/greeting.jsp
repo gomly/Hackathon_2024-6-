@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>My Webpage</title>
 </head>
 <body>
@@ -45,19 +45,5 @@
 <footer class="footer-container">
     <p>© 2024 MyWebsite. All rights reserved.</p>
 </footer>
-</body>
-</html><html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<header class="sticky-menu">
-    <div class="logo">MyLogo</div>
-    <nav class="nav-buttons">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
 </body>
 </html>
