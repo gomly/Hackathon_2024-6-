@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Budget Tracker</title>
     <style>
-        /* Additional styling for sliders and total display */
+
         .slider-container {
             margin-bottom: 20px;
         }
@@ -56,7 +56,7 @@
 <body>
 <!-- Header Container -->
 <header class="header-container">
-    <div class="header-inner-container logo">
+    <div class="header-inner-container-logo">
         <img src="../../student-bud-logo.png" alt="StudentBud Logo" id="student-bud-logo" style="width: 100px;">
     </div>
     <div class="header-inner-container navigation">
@@ -71,6 +71,37 @@
 
 <!-- Home-Middle Container -->
 <main class="home-middle-container">
+    <!-- Welcome Section -->
+    <div id="Welcome-section" class="home-middle-inner-container-section3">
+        <section class="concept concept-three">
+            <div class="word">
+                <%
+                    String[] letters = {"W", "e", "l", "c", "o","m", "e","",
+                            "t", "o" ,"","S","t","u","d","e","n","t","B","u","d"};
+                    for (int i = 0; i < letters.length; i++) {
+                %>
+                <div class="hover">
+                    <div></div>
+                    <div></div>
+                    <h1><%= letters[i] %></h1>
+                </div>
+                <%
+                    }
+                %>
+
+            </div>
+
+        </section>
+
+    </div>
+    <!-- intro Section -->
+    <div id="intro-section" class="home-middle-inner-container section3">
+        <div class="Main-ID">
+            <h1>The Ultimate Guild<br> to Your <br>University!</h1>
+            <p> Weather you are a new student ready to start a new stage in life or a upper classman ready for the world
+            of work, we at StudentBud have you covered.</p>
+        </div>
+    </div>
     <!-- Budget Section -->
     <div id="budget-section" class="home-middle-inner-container section1">
         <h2>Budgeting</h2>
@@ -150,4 +181,3 @@
 </script>
 </body>
 </html>
-
