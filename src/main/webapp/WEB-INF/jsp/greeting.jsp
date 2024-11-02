@@ -166,7 +166,22 @@
               <li>Apply for a RailCard to save money on Rail Travel</li>
             </ul>
         </div>
-     </div>
+
+        <div class="year1-checklist" id="year1-checklist"></div>
+            <h3 class="year1-checklist-h3">Year 2<h3>
+            <p padding="20px">This is a checklist for students progressing into year 2 of their studies.<p>
+            <ul class="year1-checklist-list">
+              <li>Apply for internships and summer programmes</li>
+              <ul style="list-style-type: none;">
+                <li margin-left="10px";><a href="https://targetjobs.co.uk/" target="_blank" style="text-decoration: none;" class="jobs-links">Target Jobs</a></li>
+                <li margin-left="10px";><a href="https://mycareers.le.ac.uk/unauth" target="_blank" style="text-decoration: none;" class="jobs-links">MyCareers</a></li>
+                <li margin-left="10px";><a href="https://www.brightnetwork.co.uk/" target="_blank" style="text-decoration: none;" class="jobs-links">Bright Network</a></li>
+              </ul>
+              <li>Apply for Year Abroad</li>
+              <li>Join societies on campus</li>
+              <li>Confirm your academic standing and credits</li>
+            </ul>
+     
 </main>
 
 <!-- Footer Container -->
