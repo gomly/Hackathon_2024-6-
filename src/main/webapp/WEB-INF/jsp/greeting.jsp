@@ -154,7 +154,7 @@
     <!-- Guide Section -->
     <div id="guide-section" class="home-middle-inner-container section2">
         <h2 id="guide-heading">Yearwise Checklist</h2>
-        <p style="font-size: 20px; font-style: italic;">Navigate university life with ease using our student guide! This checklist provides steps tailored for every stage. Whether your'e a <a href="#year1-checklist">first-year</a>, second-year, third-year, or an international student, this guide can help you make the most of each year.</p>
+        <p style="font-size: 20px; font-style: italic;">Navigate university life with ease using our student guide! This checklist provides steps tailored for every stage. Whether your'e a first-year, second-year, third-year, or an international student, this guide can help you make the most of each year.</p>
 
 
 
