@@ -259,10 +259,22 @@
 
 <!-- Footer Container -->
 <footer class="footer-container">
-    <p class="text2"> &copy 2024 MyWebsite. All rights reserved.</p>
-    <p class="text2"> <img src="phone.png" height = "25" width = "25" <img/> 02344897609 </p>
-    <p class="text2"> <img src="mail.png" height ="25" width ="25" <img/> CustomerService@StudentBud.biz </p>
-    <p class="home-middle-container"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109515.33484418485!2d-1.2260080439416987!3d52.66052175398609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877612fa55d947f%3A0xf8da17fed74e0044!2sUniversity%20of%20Leicester!5e0!3m2!1sen!2suk!4v1730590682463!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    <div class="footer-content">
+        <p class="footer-text">&copy; 2024 MyWebsite. All rights reserved.</p>
+        <div class="contact-info">
+            <div class="contact-item">
+                <img src="phone.png" alt="Phone Icon" class="icon" />
+                <span>02344897609</span>
+            </div>
+            <div class="contact-item">
+                <img src="mail.png" alt="Mail Icon" class="icon" />
+                <span>CustomerService@StudentBud.biz</span>
+            </div>
+        </div>
+    </div>
+    <div class="map-container">
+        <img src="map.png" alt="Map location" class="map-image" />
+    </div>
 </footer>
 
     <script>
