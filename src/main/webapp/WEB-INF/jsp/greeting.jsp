@@ -167,6 +167,7 @@
                 <li>Find out about Welcome Events and book your place</li>
                 <li>Explore the Student's Union and plan what societies you want to join.</li>
                 <li>Apply for a RailCard to save money on Rail Travel</li>
+                <li>Get familiar with the UoL and SafeZone Apps.</li>
             </ul>
     
 
