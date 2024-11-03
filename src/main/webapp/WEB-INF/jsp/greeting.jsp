@@ -61,7 +61,7 @@
     </div>
     <div class="header-inner-container navigation">
         <nav>
-            <ul>
+            <ul id="menu-buttons">
                 <li><a href="#budget-section">Budget</a></li>
                 <li><a href="#guide-section">Year Checklist</a></li>
             </ul>
