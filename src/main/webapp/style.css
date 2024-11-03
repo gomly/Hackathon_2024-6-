@@ -137,6 +137,67 @@ body {
     background-size: cover;
 }
 
+.slider-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+/* Label styling */
+.slider-container label {
+  width: 100px;          /* Fixed width for alignment */
+  text-align: right;     /* Right-align the label text */
+  margin-right: 30px;    /* Space between label and slider */
+}
+
+/* Slider styling */
+.slider {
+  flex: 1;               /* Allow slider to take up remaining space */
+  margin: 0 15px;        /* Margin around the slider for spacing */
+}
+
+/* Value display styling */
+.slider-value {
+  min-width: 60px;       /* Fixed width to align values on the right */
+  text-align: left;      /* Align text to the left */
+  color: #333;           /* Text color */
+}
+.slider-container {
+  width: 80%;      /* Adjust width as needed */
+  max-width: 800px; /* Set a max-width for responsiveness */
+  margin: 0 auto;   /* Center the container */
+  padding: 0 20px;  /* Optional padding */
+}
+
+#sliders {
+  width: 50%;
+  appearance: none;
+  height: 8px;               /* Adjust height of the slider */
+  background: #ddd;          /* Track color */
+  outline: ;
+  border-radius: 5px;        /* Round the edges */
+}
+
+#sliders::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #4CAF50;       /* Color of thumb */
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#sliders::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #4CAF50;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
 #guide-heading {
     font-style: italic;
     font-family: "Monaco", monospace;
