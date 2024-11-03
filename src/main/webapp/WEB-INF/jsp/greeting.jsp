@@ -104,7 +104,7 @@
     </div>
     <!-- Budget Section -->
     <div id="budget-section" class="home-middle-inner-container section1">
-        <h2>Budgeting</h2>
+        <h2 id="budget-heading">Budgeting</h2>
         <p>Track your spending across categories to stay within budget. Adjust each slider to reflect your spending, then submit for insights.</p>
 
         <!-- Total Spending Display -->
