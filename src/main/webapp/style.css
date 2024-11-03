@@ -289,15 +289,45 @@ body {
     color: white;
 }
 
-
 .footer-container {
-    text-align: left; /* Center text in footer */
-    background: rgb(222,208,210);
-    border-top: 2px solid #ccc;
-    padding-left: 20px;
+    display: flex; /* Enables flex layout */
+    justify-content: space-between; /* Space between text and map */
+    align-items: center; /* Vertically centers content */
+    background: rgb(156, 149, 149); /* Background color */
+    border-top: 2px solid #ccc; /* Top border for separation */
+    color: #fff; /* White text */
+    padding: 20px; /* Space inside the footer */
+    font-family: Arial, sans-serif; /* Sets font */
 }
-.text2 {
-    text-align: left;
-    padding-bottom: 10px;
-    border-bottom: 20px;
+
+.footer-content {
+    flex: 1; /* Takes up available space */
+    text-align: center; /* Centers text */
+}
+
+.contact-info {
+    display: flex; /* Enables flex layout */
+    justify-content: center; /* Centers contact items */
+    gap: 20px; /* Space between contact items */
+    margin-top: 10px; /* Adds space above the contact section */
+}
+
+.contact-item {
+    display: flex; /* Aligns icon and text inline */
+    align-items: center; /* Centers icon vertically with text */
+    gap: 8px; /* Space between icon and text */
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+}
+
+
+
+.map-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 400px;
 }
