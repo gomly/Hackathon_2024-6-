@@ -145,7 +145,7 @@
             </div>
 
             <!-- Submit Button -->
-            <button type="submit">Submit Weekly Spending</button>
+            <button id="submit-button" type="submit">Submit Weekly Spending</button>
         </form>
 
         <!-- Display Spending Message -->
