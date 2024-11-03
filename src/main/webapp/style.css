@@ -380,3 +380,6 @@ body {
 .button1:hover{
     transform: scale(1.05);
 }
+.year1-checklist-h3:hover{
+    transform: scale(1.05);
+}
