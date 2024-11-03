@@ -171,7 +171,7 @@ body {
   padding: 0 20px;  /* Optional padding */
 }
 
-#sliders {
+.sliders-class {
   width: 50%;
   appearance: none;
   height: 8px;               /* Adjust height of the slider */
@@ -180,7 +180,7 @@ body {
   border-radius: 5px;        /* Round the edges */
 }
 
-#sliders::-webkit-slider-thumb {
+.sliders-class::-webkit-slider-thumb {
   appearance: none;
   width: 20px;
   height: 20px;
