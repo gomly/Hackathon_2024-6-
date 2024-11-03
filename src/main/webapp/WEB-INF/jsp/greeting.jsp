@@ -24,11 +24,11 @@
     int difference = totalBudget - totalSpending;
     if (totalSpending > 0) {
         if (difference < 0) {
-            message = "You have overspent by $" + Math.abs(difference) + ". Try reducing your spending in some areas.";
+            message = "<p style='color: black; font-weight: bold; font-size: 18px'>You have overspent by $" + Math.abs(difference) + ". Try reducing your spending in some areas.";
         } else if (difference > 0) {
-            message = "Great! You underspent by $" + difference + ". Consider saving the extra amount!";
+            message = "<p style='color: black; font-weight: bold; font-size: 18px'>Great! You underspent by $" + difference + ". Consider saving the extra amount!";
         } else {
-            message = "You spent exactly your budget. Good job on sticking to your limits!";
+            message = "<p style='color: black; font-weight: bold; font-size: 18px'>You spent exactly your budget. Good job on sticking to your limits!";
         }
 
     }
