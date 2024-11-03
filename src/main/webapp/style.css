@@ -13,7 +13,7 @@ body {
     border-bottom: 2px solid #000000;
     position: sticky;
     background: #e5042c;
-    
+
 }
 .header-inner-container-logo{
     margin-left: 23rem;
@@ -110,7 +110,6 @@ body {
     font-family: "Verdana", sans-serif;
     font-size: 28px;
 }
-
 #budget-heading {
     font-style: italic;
     font-family: "Monaco", monospace;
@@ -122,6 +121,13 @@ body {
     border-radius: 8px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Adds depth to the heading */
+}
+
+
+.message {
+    font-size: 18px; /* Change this value to your desired font size */
+    color: #333; /* Optional: Change the text color */
+    margin: 10px 0; /* Optional: Add some margin for spacing */
 }
 
 .home-middle-container {
@@ -161,6 +167,7 @@ body {
 }
 
 .home-middle-inner-container-section3{
+
     width: 60%; /* Full width for each section */
     margin: 10px 0; /* Vertical margin between sections */
     padding: 20px;
@@ -172,6 +179,7 @@ body {
     background-repeat: no-repeat; /* Prevents tiling */
     background-size: cover;
 }
+
 
 .slider-container {
   display: flex;
@@ -366,22 +374,4 @@ body {
     height: auto;
     border-radius: 5px; /* Rounded corners */
     margin-right: 400px;
-}
-.button1 {
-    color:black;
-    padding: 14px 40px;
-    background: linear-gradient(90deg, #2eb62c, #57c84d);
-    border-radius: 45px;
-    margin: 0 15px;
-    font-size: 10px;
-    font-weight: 400;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.3 ease;
-    font-palette: dark;
-}
-.button1:hover{
-    transform: scale(1.05);
-}
-.year1-checklist-h3:hover{
-    transform: scale(1.05);
 }
