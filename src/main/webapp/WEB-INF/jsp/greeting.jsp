@@ -30,7 +30,9 @@
         } else {
             message = "You spent exactly your budget. Good job on sticking to your limits!";
         }
+
     }
+
 %>
 
 <!DOCTYPE html>
@@ -97,15 +99,15 @@
     <!-- intro Section -->
     <div id="intro-section" class="home-middle-inner-container section3">
         <div class="Main-ID">
-            <h1>The Ultimate Guide<br> to Your <br>University!</h1>
+            <h1 style="font-family:"Copperplate",fantasy;">The Ultimate Guide<br> to Your <br>University!</h1>
             <p style="font-style:italic; font-size:20px">Whether you are a new student ready to start a new stage in life or an upper classman ready for the world
             of work, we at StudentBud have you covered.</p>
         </div>
     </div>
     <!-- Budget Section -->
     <div id="budget-section" class="home-middle-inner-container section1">
-        <h2 id="budget-heading">Budgeting</h2>
-        <p>Track your spending across categories to stay within budget. Adjust each slider to reflect your spending, then submit for insights.</p>
+        <h2 id="budget-heading" >Budgeting</h2>
+        <p style="font-size: 20px; font-style: italic;">Track your spending across categories to stay within budget. Adjust each slider to reflect your spending, then submit for insights.</p>
 
         <!-- Total Spending Display -->
         <div class="total-display"><span id="totalValue"></span></div>
@@ -120,6 +122,8 @@
                 <div id="contentBox"></div>
             </div>
 
+            <br>
+
             <!-- Groceries Slider -->
             <div class="slider-container">
                 <label for="groceriesSlider">Groceries</label>
@@ -128,6 +132,8 @@
                 <div id="contentBox2"></div>
             </div>
 
+            <br>
+
             <!-- Leisure Slider -->
             <div class="slider-container">
                 <label for="leisureSlider">Leisure</label>
@@ -135,6 +141,8 @@
                 <span id="leisureValue">0</span> / 100
                 <div id="contentBox3"></div>
             </div>
+
+            <br>
 
             <!-- Transport Slider -->
             <div class="slider-container">
@@ -145,7 +153,7 @@
             </div>
 
             <!-- Submit Button -->
-            <button class = button1 id="submit-button" type="submit">Submit Weekly Spending</button>
+            <button id="submit-button" type="submit">Submit Weekly Spending</button>
         </form>
 
         <!-- Display Spending Message -->
