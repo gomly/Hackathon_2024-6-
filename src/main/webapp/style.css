@@ -124,6 +124,27 @@ body {
     border-radius: 5px;
     text-align: center; /* Center text inside sections */
 }
+
+#submit-button {
+    font-color: #000000;
+    background-color: #6ac5fe; /* Blue background */
+    color: black; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding around the text */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline-block for spacing */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margins */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+#submit-button:hover {
+    background-color: #4cbb17; /* Green on hover */
+}
+
 .home-middle-inner-container-section3{
     width: 60%; /* Full width for each section */
     margin: 10px 0; /* Vertical margin between sections */
