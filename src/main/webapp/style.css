@@ -365,3 +365,18 @@ body {
     border-radius: 5px; /* Rounded corners */
     margin-right: 400px;
 }
+.button1 {
+    color:black;
+    padding: 14px 40px;
+    background: linear-gradient(90deg, #2eb62c, #57c84d);
+    border-radius: 45px;
+    margin: 0 15px;
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3 ease;
+    font-palette: dark;
+}
+.button1:hover{
+    transform: scale(1.05);
+}
