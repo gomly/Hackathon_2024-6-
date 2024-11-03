@@ -210,7 +210,7 @@
                             <li><a href="https://le.ac.uk/study/welcome/your-next-steps/plan-travel" target="_blank" class="jobs-links">Plan how to get to university</a></li>
                             <li><a href="https://le.ac.uk/study/welcome/your-arrival/open-uk-bank-account" target="_blank" class="jobs-links">Research banking in the UK</a></li>
                             <li>Plan and book your accommodation</li>
-                            <li>Read the <a href="https://www.leicesterunion.com/pageassets/support/studentresources/LSU-UoL-Unlocked.pdf" target="_blank" class="jobs-links">International Welcome Guide</a> from thr Student Union</li>
+                            <li>Read the <a href="https://www.leicesterunion.com/pageassets/support/studentresources/LSU-UoL-Unlocked.pdf" target="_blank" class="jobs-links">International Welcome Guide</a> from the Student Union</li>
                         </ul>
         
 
