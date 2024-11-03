@@ -157,63 +157,103 @@
         <p style="font-size: 20px; font-style: italic;">Navigate university life with ease using our student guide! This checklist provides steps tailored for every stage. Whether you're a first-year, second-year, third-year, or even an international student, this guide can help you make the most of each year.</p>
 
 
-        <div class="year1-checklist" id="year-checklist"></div>
-        <h3 class="year1-checklist-h3">Year 1</h3>
-            <p padding="0px">This is a checklist for students entering into year 1 of their studies.<p>
+        <div class="year1-checklist" id="year-checklist">
+            <h3 class="year1-checklist-h3">Year 1</h3>
+            <p>This is a checklist for students entering into year 1 of their studies.</p>
             <ul class="year1-checklist-list">
-                <li>View your timetable - This will be available at the start of the term</li>
-                <li>Register with a GP</li>
-                <li>Join the university's Instagram and Student Life Facebook channels to make friends before you arrive</li>
-                <li>Find out about Welcome Events and book your place</li>
-                <li>Explore the Student's Union and plan what societies you want to join.</li>
-                <li>Apply for a RailCard to save money on Rail Travel</li>
-                <li>Get familiar with the UoL and SafeZone Apps.</li>
+                <li>View your timetable - This will be available at the start of the term
+                    <input class="todo-checkbox" type="checkbox">
+                </li>
+                <li>Register with a GP
+                    <input class="todo-checkbox" type="checkbox">
+                </li>
+                <li>Join the university's Instagram and Student Life Facebook channels to make friends before you arrive
+                    <input class="todo-checkbox" type="checkbox">
+                </li>
+                <li>Find out about Welcome Events and book your place
+                    <input class="todo-checkbox" type="checkbox">
+                </li>
+                <li>Explore the Student's Union and plan what societies you want to join
+                    <input class="todo-checkbox" type="checkbox">
+                </li>
+                <li>Apply for a RailCard to save money on Rail Travel
+                    <input class="todo-checkbox" type="checkbox">
+                </li>
+                <li>Get familiar with the UoL and SafeZone Apps
+                    <input class="todo-checkbox" type="checkbox">
+                </li>
             </ul>
+        
+        
     
-
-
-        <div class="year1-checklist" id="year-checklist"></div>
-        <h3 class="year1-checklist-h3">Year 2</h3>
-            <p padding="20px">This is a checklist for students progressing into year 2 of their studies.<p>
-            <ul class="year1-checklist-list">
-                <li>Apply for internships and summer programmes</li>
-                <ul style="list-style-type: none;">
-                    <li margin-left="10px";><a href="https://targetjobs.co.uk/" target="_blank" style="text-decoration: none;" class="jobs-links">Target Jobs</a></li>
-                    <li margin-left="10px";><a href="https://mycareers.le.ac.uk/unauth" target="_blank" style="text-decoration: none;" class="jobs-links">MyCareers</a></li>
-                    <li margin-left="10px";><a href="https://www.brightnetwork.co.uk/" target="_blank" style="text-decoration: none;" class="jobs-links">Bright Network</a></li>
+            <h3 class="year1-checklist-h3">Year 2</h3>
+                <p padding="20px">This is a checklist for students progressing into year 2 of their studies.<p>
+                <ul class="year1-checklist-list">
+                    <li>Apply for internships and summer programmes
+                    <input class="todo-checkbox" type="checkbox">
+                    </li>
+                
+                    <ul style="list-style-type: none;">
+                        <li margin-left="10px";><a href="https://targetjobs.co.uk/" target="_blank" style="text-decoration: none;" class="jobs-links">Target Jobs</a></li>
+                        <li margin-left="10px";><a href="https://mycareers.le.ac.uk/unauth" target="_blank" style="text-decoration: none;" class="jobs-links">MyCareers</a></li>
+                        <li margin-left="10px";><a href="https://www.brightnetwork.co.uk/" target="_blank" style="text-decoration: none;" class="jobs-links">Bright Network</a></li>
+                    </ul>
+                    <li>Apply for Year Abroad
+                        <input class="todo-checkbox" type="checkbox">
+                    </li>
+                    <li>Join societies on campus
+                        <input class="todo-checkbox" type="checkbox">
+                    </li>
+                    <li>Confirm your academic standing and credits
+                        <input class="todo-checkbox" type="checkbox">
+                    </li>
                 </ul>
-                <li>Apply for Year Abroad</li>
-                <li>Join societies on campus</li>
-                <li>Confirm your academic standing and credits</li>
-            </ul>
         
         
-
-        <div class="year1-checklist" id="year-checklist"></div>
             <h3 class="year1-checklist-h3">Year 3</h3>
                 <p padding="0px">This is a checklist for students entering into year 3 of their studies.<p>
                 <ul class="year1-checklist-list">
-                    <li>Checkout plans for Masters</li>
-                    <li>Graduate Programmes
-                    <li><a href="https://targetjobs.co.uk/" target="_blank" class="jobs-links">Target Jobs Uk</a></li>
-                    <li><a href="https://www.ucas.com/" target="_blank" class="jobs-links">UCAS for Masters</a></li>
-                    <li>Careers</li>
+                    <li>Checkout plans for Masters
+                        <input class="todo-checkbox" type="checkbox">
+                    </li>
+                    <li>Graduate Programmes 
+                        <input class="todo-checkbox" type="checkbox">
+                    </li>
+                    <ul>
+                        <li><a href="https://targetjobs.co.uk/" target="_blank" class="jobs-links">Target Jobs Uk</a></li>
+                        <li><a href="https://www.ucas.com/" target="_blank" class="jobs-links">UCAS for Masters</a></li>        
+                    </ul>
+                    <li>Careers
+                        <input class="todo-checkbox" type="checkbox">
+                    </li>
                 </ul>
 
-         <div class="year1-checklist" id="year-checklist"></div>
                     <h3 class="year1-checklist-h3">International Students</h3>
                         <p padding="0px">This is a checklist for international students.<p>
                         <ul class="year1-checklist-list">
-                            <li>Check and renew your passport if necessary</li>
-                            <li>Apply for your visa</li>
-                            <li>Get some british currency to use during first few days</li>
-                            <li><a href="https://le.ac.uk/study/welcome/your-next-steps/plan-travel" target="_blank" class="jobs-links">Plan how to get to university</a></li>
-                            <li><a href="https://le.ac.uk/study/welcome/your-arrival/open-uk-bank-account" target="_blank" class="jobs-links">Research banking in the UK</a></li>
-                            <li>Plan and book your accommodation</li>
-                            <li>Read the <a href="https://www.leicesterunion.com/pageassets/support/studentresources/LSU-UoL-Unlocked.pdf" target="_blank" class="jobs-links">International Welcome Guide</a> from the Student Union</li>
+                            <li>Check and renew your passport if necessary
+                                <input class="todo-checkbox" type="checkbox">
+                            </li>
+                            <li>Apply for your visa
+                                <input class="todo-checkbox" type="checkbox">
+                            </li>
+                            <li>Get some british currency to use during first few days
+                                <input class="todo-checkbox" type="checkbox">
+                            </li>
+                            <li><a href="https://le.ac.uk/study/welcome/your-next-steps/plan-travel" target="_blank" class="jobs-links">Plan how to get to university</a>
+                                <input class="todo-checkbox" type="checkbox">
+                            </li>
+                            <li><a href="https://le.ac.uk/study/welcome/your-arrival/open-uk-bank-account" target="_blank" class="jobs-links">Research banking in the UK</a>
+                                <input class="todo-checkbox" type="checkbox">
+                            </li>
+                            <li>Plan and book your accommodation
+                                <input class="todo-checkbox" type="checkbox">
+                            </li>
+                            <li>Read the <a href="https://www.leicesterunion.com/pageassets/support/studentresources/LSU-UoL-Unlocked.pdf" target="_blank" class="jobs-links">International Welcome Guide</a> from the Student Union 
+                                <input class="todo-checkbox" type="checkbox">
+                            </li>
                         </ul>
-        
-
+        </div>       
     </div>
 </main>
 
