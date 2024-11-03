@@ -198,6 +198,19 @@
                     <li><a href="https://www.ucas.com/" target="_blank" class="jobs-links">UCAS for Masters</a></li>
                     <li>Careers</li>
                 </ul>
+
+         <div class="year1-checklist" id="year-checklist"></div>
+                    <h3 class="year1-checklist-h3">International Students</h3>
+                        <p padding="0px">This is a checklist for international students.<p>
+                        <ul class="year1-checklist-list">
+                            <li>Check and renew your passport if necessary</li>
+                            <li>Apply for your visa</li>
+                            <li>Get some british currency to use during first few days</li>
+                            <li><a href="https://le.ac.uk/study/welcome/your-next-steps/plan-travel" target="_blank" class="jobs-links">Plan how to get to university</a></li>
+                            <li><a href="https://le.ac.uk/study/welcome/your-arrival/open-uk-bank-account" target="_blank" class="jobs-links">Research banking in the UK</a></li>
+                            <li>Plan and book your accommodation</li>
+                            <li>Read the <a href="https://www.leicesterunion.com/pageassets/support/studentresources/LSU-UoL-Unlocked.pdf" target="_blank" class="jobs-links">International Welcome Guide</a> from thr Student Union</li>
+                        </ul>
         
 
     </div>
