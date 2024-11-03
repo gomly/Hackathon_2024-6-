@@ -337,6 +337,7 @@ body {
     background-color: rgba(173, 255, 47, 0.5); /* Light background highlight */
 }
 
+
 .footer-container {
     display: flex; /* Enables flex layout */
     justify-content: space-between; /* Space between text and map */
@@ -379,3 +380,4 @@ body {
     border-radius: 5px; /* Rounded corners */
     margin-right: 400px;
 }
+
