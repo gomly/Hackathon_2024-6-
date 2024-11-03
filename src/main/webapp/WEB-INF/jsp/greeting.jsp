@@ -115,7 +115,7 @@
             <!-- Housing Slider -->
             <div class="slider-container">
                 <label for="housingSlider">Housing</label>
-                <input type="range" id="housingSlider" name="housing" min="0" max="250" value="0" oninput="updateSliderValues()">
+                <input type="range" id="sliders" name="housing" min="0" max="250" value="0" oninput="updateSliderValues()">
                 <span id="housingValue">0</span> / 250
                 <div id="contentBox"></div>
             </div>
@@ -123,7 +123,7 @@
             <!-- Groceries Slider -->
             <div class="slider-container">
                 <label for="groceriesSlider">Groceries</label>
-                <input type="range" id="groceriesSlider" name="groceries" min="0" max="100" value="0" oninput="updateSliderValues()">
+                <input type="range" id="sliders" name="groceries" min="0" max="100" value="0" oninput="updateSliderValues()">
                 <span id="groceriesValue">0</span> / 100
                 <div id="contentBox2"></div>
             </div>
@@ -131,7 +131,7 @@
             <!-- Leisure Slider -->
             <div class="slider-container">
                 <label for="leisureSlider">Leisure</label>
-                <input type="range" id="leisureSlider" name="leisure" min="0" max="100" value="0" oninput="updateSliderValues()">
+                <input type="range" id="sliders" name="leisure" min="0" max="100" value="0" oninput="updateSliderValues()">
                 <span id="leisureValue">0</span> / 100
                 <div id="contentBox3"></div>
             </div>
@@ -139,7 +139,7 @@
             <!-- Transport Slider -->
             <div class="slider-container">
                 <label for="transportSlider">Transport</label>
-                <input type="range" id="transportSlider" name="transport" min="0" max="100" value="0" oninput="updateSliderValues()">
+                <input type="range" id="sliders" name="transport" min="0" max="100" value="0" oninput="updateSliderValues()">
                 <span id="transportValue">0</span> / 100
                 <div id="contentBox4"></div>
             </div>
