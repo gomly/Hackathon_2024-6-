@@ -98,7 +98,7 @@
     <div id="intro-section" class="home-middle-inner-container section3">
         <div class="Main-ID">
             <h1>The Ultimate Guide<br> to Your <br>University!</h1>
-            <p style="font-style:italic; font-size:20px">Whether you are a new student ready to start a new stage in life or a upper classman ready for the world
+            <p style="font-style:italic; font-size:20px">Whether you are a new student ready to start a new stage in life or an upper classman ready for the world
             of work, we at StudentBud have you covered.</p>
         </div>
     </div>
@@ -154,7 +154,7 @@
     <!-- Guide Section -->
     <div id="guide-section" class="home-middle-inner-container section2">
         <h2 id="guide-heading">Yearwise Checklist</h2>
-        <p style="font-size: 20px; font-style: italic;">Navigate university life with ease using our student guide! This checklist provides steps tailored for every stage. Whether your'e a first-year, second-year, third-year, or an international student, this guide can help you make the most of each year.</p>
+        <p style="font-size: 20px; font-style: italic;">Navigate university life with ease using our student guide! This checklist provides steps tailored for every stage. Whether you're a first-year, second-year, third-year, or even an international student, this guide can help you make the most of each year.</p>
 
 
         <div class="year1-checklist" id="year-checklist"></div>
