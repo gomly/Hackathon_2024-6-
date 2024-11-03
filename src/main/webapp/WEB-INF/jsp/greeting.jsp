@@ -97,7 +97,7 @@
     <!-- intro Section -->
     <div id="intro-section" class="home-middle-inner-container section3">
         <div class="Main-ID">
-            <h1>The Ultimate Guild<br> to Your <br>University!</h1>
+            <h1>The Ultimate Guide<br> to Your <br>University!</h1>
             <p style="font-style:italic; font-size:20px">Whether you are a new student ready to start a new stage in life or a upper classman ready for the world
             of work, we at StudentBud have you covered.</p>
         </div>
@@ -157,7 +157,7 @@
         <p style="font-size: 20px; font-style: italic;">Navigate university life with ease using our student guide! This checklist provides steps tailored for every stage. Whether your'e a first-year, second-year, third-year, or an international student, this guide can help you make the most of each year.</p>
 
 
-
+        <div class="year1-checklist" id="year-checklist"></div>
         <h3 class="year1-checklist-h3">Year 1</h3>
             <p padding="0px">This is a checklist for students entering into year 1 of their studies.<p>
             <ul class="year1-checklist-list">
@@ -168,9 +168,10 @@
                 <li>Explore the Student's Union and plan what societies you want to join.</li>
                 <li>Apply for a RailCard to save money on Rail Travel</li>
             </ul>
+    
 
 
-
+        <div class="year1-checklist" id="year-checklist"></div>
         <h3 class="year1-checklist-h3">Year 2</h3>
             <p padding="20px">This is a checklist for students progressing into year 2 of their studies.<p>
             <ul class="year1-checklist-list">
@@ -184,8 +185,10 @@
                 <li>Join societies on campus</li>
                 <li>Confirm your academic standing and credits</li>
             </ul>
+        
+        
 
-
+        <div class="year1-checklist" id="year-checklist"></div>
             <h3 class="year1-checklist-h3">Year 3</h3>
                 <p padding="0px">This is a checklist for students entering into year 3 of their studies.<p>
                 <ul class="year1-checklist-list">
@@ -193,8 +196,22 @@
                     <li>Graduate Programmes
                     <li><a href="https://targetjobs.co.uk/" target="_blank" class="jobs-links">Target Jobs Uk</a></li>
                     <li><a href="https://www.ucas.com/" target="_blank" class="jobs-links">UCAS for Masters</a></li>
-            <li>Careers</li>
+                    <li>Careers</li>
                 </ul>
+
+         <div class="year1-checklist" id="year-checklist"></div>
+                    <h3 class="year1-checklist-h3">International Students</h3>
+                        <p padding="0px">This is a checklist for international students.<p>
+                        <ul class="year1-checklist-list">
+                            <li>Check and renew your passport if necessary</li>
+                            <li>Apply for your visa</li>
+                            <li>Get some british currency to use during first few days</li>
+                            <li><a href="https://le.ac.uk/study/welcome/your-next-steps/plan-travel" target="_blank" class="jobs-links">Plan how to get to university</a></li>
+                            <li><a href="https://le.ac.uk/study/welcome/your-arrival/open-uk-bank-account" target="_blank" class="jobs-links">Research banking in the UK</a></li>
+                            <li>Plan and book your accommodation</li>
+                            <li>Read the <a href="https://www.leicesterunion.com/pageassets/support/studentresources/LSU-UoL-Unlocked.pdf" target="_blank" class="jobs-links">International Welcome Guide</a> from thr Student Union</li>
+                        </ul>
+        
 
     </div>
 </main>
