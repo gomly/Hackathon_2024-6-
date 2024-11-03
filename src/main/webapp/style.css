@@ -218,8 +218,13 @@ body {
 
 
 .footer-container {
-    text-align: center; /* Center text in footer */
-    padding: 10px 0;
-    background-color: #f4f4f4;
+    text-align: left; /* Center text in footer */
+    background: rgb(222,208,210);
     border-top: 2px solid #ccc;
+    padding-left: 20px;
+}
+.text2 {
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 20px;
 }
