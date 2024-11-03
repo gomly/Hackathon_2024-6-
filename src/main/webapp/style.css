@@ -36,7 +36,7 @@ body {
 
 .navigation nav ul li a {
     text-decoration: none;
-    color: #000000;
+    color: #white;
     font-family: "Verdana", sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -219,9 +219,14 @@ body {
 .jobs-links:active {
     color: red;
 }
-
-
-
+#menu-buttons li {
+    display: inline-block; /* Arrange buttons horizontally */
+    margin: 0 10px; /* Space between buttons */
+    padding: 10px;
+    border: 2px solid white; /* Add border */
+    border-radius: 5px; /* Optional: add rounded corners */
+    color: white;
+}
 
 
 .footer-container {
