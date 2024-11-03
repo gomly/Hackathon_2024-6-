@@ -12,8 +12,8 @@ body {
     padding: 20px;
     border-bottom: 2px solid #000000;
     position: sticky;
-    background: rgb(241,89,102);
-    background: linear-gradient(0deg, rgba(241,89,102,1) 0%, rgba(130,33,33,1) 100%);
+    background: #e5042c;
+    
 }
 .header-inner-container-logo{
     margin-left: 23rem;
@@ -86,8 +86,10 @@ body {
     margin: -30px auto auto;
     transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
     z-index: 0;
-    font-size: 28px;
-
+    font-size: 30px;
+    color: white;
+    font-family: "Courier New", monospace;
+    text-transform: uppercase;
 }
 
 .Main-ID {
