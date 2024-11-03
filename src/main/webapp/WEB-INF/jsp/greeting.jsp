@@ -31,6 +31,7 @@
             message = "<p style='color: black; font-weight: bold; font-size: 18px'>You spent exactly your budget. Good job on sticking to your limits!";
         }
 
+
     }
 
 %>
@@ -153,7 +154,7 @@
             </div>
 
             <!-- Submit Button -->
-            <button id="submit-button" type="submit">Submit Weekly Spending</button>
+            <button id="submit-button" type="submit" onclick="window.location.href='#budget-section'">Submit Weekly Spending</button>
         </form>
 
         <!-- Display Spending Message -->
@@ -305,33 +306,35 @@
 
             // Update content boxes for each slider with multiple information
             updateContentBox('housingSlider', 'contentBox', [
-                "Housing tip 1: Consider sharing to save money.\nMake sure to discuss responsibilities with your roommate.",
-                "Housing tip 2: Look for deals on long-term leases.\nAsk about any promotions for new tenants.",
-                "Housing tip 3: Explore off-campus housing options.\nSometimes they can be more affordable than on-campus.",
-                "Housing tip 4: Make sure you have renter's insurance.\nIt's a small price to pay for peace of mind.",
-                "Housing tip 5: Check local regulations for landlords.\nEnsure you're in a safe and legal rental agreement."
-            ]);
-            updateContentBox('groceriesSlider', 'contentBox2', [
-                "Groceries tip 1: Consider meal prepping to save time.\nPrepare meals in bulk to avoid food waste.",
-                "Groceries tip 2: Explore local markets for fresh produce.\nOften cheaper and fresher than grocery stores.",
-                "Groceries tip 3: Buy in bulk for pantry staples.\nIt saves money and reduces the frequency of shopping.",
-                "Groceries tip 4: Look for coupons and discounts.\nAlways check before shopping, both online and in-store.",
-                "Groceries tip 5: Track your spending to avoid waste.\nPlan meals according to what you already have."
-            ]);
-            updateContentBox('leisureSlider', 'contentBox3', [
-                "Leisure tip 1: Check for student discounts on activities.\nMany venues offer reduced prices for students.",
-                "Leisure tip 2: Find free events on campus.\nThere are often concerts, lectures, and activities.",
-                "Leisure tip 3: Join clubs for social activities.\nThey provide great opportunities to meet new people.",
-                "Leisure tip 4: Balance leisure spending with other expenses.\nConsider setting a monthly cap for entertainment.",
-                "Leisure tip 5: Consider low-cost hobbies to save money.\nExplore activities like hiking, reading, or crafting."
-            ]);
-            updateContentBox('transportSlider', 'contentBox4', [
-                "Transport tip 1: Look into public transport options.\nCheck for student passes for discounts.",
-                "Transport tip 2: Consider a bike for short distances.\nIt's a cost-effective and healthy option.",
-                "Transport tip 3: Carpool with friends to save on gas.\nIt's fun and reduces individual expenses.",
-                "Transport tip 4: Track transport expenses monthly.\nIdentify areas where you can save.",
-                "Transport tip 5: Research student discounts for transport.\nMany transit systems offer reduced fares for students."
-            ]);
+                        "Housing tip 1: Consider sharing to save money.\nMake sure to discuss responsibilities with your roommate.",
+                        "Housing tip 2: Look for deals on long-term leases.\nAsk about any promotions for new tenants.",
+                        "Housing tip 3: Explore off-campus housing options.\nSometimes they can be more affordable than on-campus.",
+                        "Housing tip 4: Make sure you have renter's insurance.\nIt's a small price to pay for peace of mind.",
+                        "Housing tip 5: Check local regulations for landlords.\nEnsure you're in a safe and legal rental agreement.\n Here are some recommendations:\n <a href='https://www.archliving.co.uk/' target='_blank'>Arch Living</a>\n <a href='https://www.openrent.co.uk/landlords-advertise-property-for-rent-on-rightmove-and-zoopla?gad_source=1&gclid=Cj0KCQjwvpy5BhDTARIsAHSilykxfsTSyaEUW8yLoyep-jNxzs4ve_bXv8u1FgOb6X3icSZblXGKOb4aAqJ8EALw_wcB' target='_blank'>Open Rent</a>\n<a href='https://www.leicester.gov.uk/your-community/housing/landlords/ target='_blank'>Leicester City Council</a> "
+
+                    ]);
+           updateContentBox('groceriesSlider', 'contentBox2', [
+                       "Groceries tip 1: Consider meal prepping to save time.\nPrepare meals in bulk to avoid food waste.",
+                       "Groceries tip 2: Explore local markets for fresh produce.\nOften cheaper and fresher than grocery stores.",
+                       "Groceries tip 3: Buy in bulk for pantry staples.\nIt saves money and reduces the frequency of shopping.",
+                       "Groceries tip 4: Look for coupons and discounts.\nAlways check before shopping, both online and in-store.",
+                       "Groceries tip 5: Track your spending to avoid waste.\nPlan meals according to what you already have.\nHere are some recommendations:\n <a href='https://stores.aldi.co.uk/east-midlands/leicester/st-georges-way' target='_blank'>Aldi</a>\n<a href='https://www.lidl.co.uk/s/en-GB/store-finder/leicester/burton-street/' target='_blank'>Lidl</a>"
+                   ]);
+           updateContentBox('leisureSlider', 'contentBox3', [
+                       "Leisure tip 1: Check for student discounts on activities.\nMany venues offer reduced prices for students.",
+                       "Leisure tip 2: Find free events on campus.\nThere are often concerts, lectures, and activities.",
+                       "Leisure tip 3: Join clubs for social activities.\nThey provide great opportunities to meet new people.",
+                       "Leisure tip 4: Balance leisure spending with other expenses.\nConsider setting a monthly cap for entertainment.",
+                       "Leisure tip 5: Consider low-cost hobbies to save money.\nExplore activities like hiking, reading, or crafting.\nHere is a recommendation: \n <a href='https://www.leicesterunion.com/opportunities/societies/findasociety/18501/' target='_blank'>UOL Compsci Soc(HIGHLY RECOMMENDED!!)</a>"
+                   ]);
+           updateContentBox('transportSlider', 'contentBox4', [
+                       "Transport tip 1: Look into public transport options.\nCheck for student passes for discounts.",
+                       "Transport tip 2: Consider a bike for short distances.\nIt's a cost-effective and healthy option.",
+                       "Transport tip 3: Carpool with friends to save on gas.\nIt's fun and reduces individual expenses.",
+                       "Transport tip 4: Track transport expenses monthly.\nIdentify areas where you can save.",
+                       "Transport tip 5: Research student discounts for transport.\nMany transit systems offer reduced fares for students.\nLook into railcards here: \n <a href='https://libraryhelp.le.ac.uk/faq/269025' target='_blank'>TFL Railcards</a>"
+
+                   ]);
         }
 
         function updateContentBox(sliderId, contentBoxId, messages) {
@@ -360,3 +363,4 @@
     </script>
 </body>
 </html>
+
