@@ -182,12 +182,19 @@ body {
 }
 
 .year1-checklist-list li {
+    display: flex;
     text-align: left;
     position: relative;
     padding-left: 20px;
     margin-bottom: 10px;
     font-size: 1.2rem;
     color: #34495e;
+}
+
+
+.todo-checkbox {
+    margin-left: auto; /* Pushes the checkbox to the right */
+    padding: 10px;
 }
 
 .year1-checklist-list li::before {
